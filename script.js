@@ -13,7 +13,6 @@ async function getPeopleInSpace() {
 	const response = await fetch(url);
 
 	const data = await response.json();
-	console.log(data);
 
 	const peopleInSpaceNumber = data.number;
 	return peopleInSpaceNumber;
